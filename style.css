@@ -1,0 +1,476 @@
+*{
+    font-family:arial;
+    margin:0;
+}
+/* header */
+/* navbar */
+.navbar{
+    margin-top:-65px;
+    position:fixed;
+    height:65px;
+    width:100%;
+    background-color: #0f1111;
+    display:flex;
+    justify-content: space-between;
+}
+.nav-left{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlogo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:60px;
+    width:130px;
+}
+/* navbar location */
+.locationicon{
+    display:flex;
+}
+.location{
+    display:flex;
+}
+.navlocation{
+    margin-left:8px;
+    width:140px;
+    height:50px;
+}
+
+.sn1{
+    color:rgba(255,255,255,0.8);
+    font-size:13px;
+    margin-left:12px;
+    margin-top:6px;
+}
+.sn2{
+    font-size:15.5px;
+    color:rgba(255,255,255,0.99999);
+    font-size:15px;
+    display:inline-block;
+}
+/* navbar search */
+.navsearch{
+    display:flex;
+    justify-content:space-evenly;
+    align-content: center;
+    height:40px;
+    width:600px;
+    border:none;
+    border-radius:4px;
+    margin-left:15px;
+
+
+}
+.sn3{
+    width:100%;
+    border:0;
+    font-size:18.6px;
+}
+.allsearch{
+    height:40px;
+    width:50px;
+    color:black;
+    background-color: #f3f3f3;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    text-align:center;
+    border:none;
+}
+.iconmag{
+    color:black;
+    width:45px;
+    background-color: orange;
+    font-size:25px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    text-align:center;
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* right */
+.nav-right{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:100%;
+    
+}
+/* language and flag area */
+.navlanguage{
+    display:flex; 
+    
+    
+}
+.indiaicon{
+    background-image: url("icons8-india-48.png");
+    background-size: cover;
+    height:20px;
+    width:25px;
+
+}
+.onelove{
+    font-size: bolder;
+}
+.EN{
+    color:white;
+    background-color: #0f1111;
+    border:none;
+    margin-top:3px;
+    font-weight:bolder;
+    font-size:15px;
+    height:18px;
+    width:40px;
+    
+}
+/* nav-account and order and cart */
+.same{
+    width:112.8px;
+}
+.same2{
+    color:white;
+    font-size:15px;
+    background-color: #0f1111;
+    border:none;
+    font-weight:bold;
+}
+.same1{
+    font-size:13px;
+    color:rgba(255,255,255);
+    text-align:center;
+}
+.navcart{
+    color:white;
+    width:43px;
+    height:28px;
+    font-size:39px;
+    margin-left:-10px;
+    margin-top:-7px;
+
+}
+.nav-account{
+
+}
+.navorder{
+   /* margin-left:-20px; */
+}
+.navorderl{
+    margin-left:20px;
+}
+/* panel */
+
+/* panel-left */
+.panel{
+    margin-top:65px;
+    height:40px;
+    width:100%px;
+    background-color:#232f3e;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.panel-left{
+    color:white;
+    width:600px;
+    height:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:10px;
+
+}
+.panel-burger{
+    height:13.99px;
+    width:16.99px;
+    color:white;
+    margin-left:18px;
+    margin-top:-12px;
+}
+.panel-deals{
+    height:27.98px;
+    width:102.8px;
+    color:white;
+    
+}
+.panel-gift{
+    height:27.98px;
+    width:80.98px;
+    color:white;
+}
+.panel-mini{
+    height:27.98px;
+    width:118.62;
+    color:white;
+}
+.panel-store{
+    height:27.98px;
+    width:113.62px;
+    color:white;
+}
+.panel-sell{
+    height:27.98px;
+    width:41.35px;
+    color:white;
+}
+.panel-right{
+    background-image: url("prime.jpg");
+    background-size: cover;
+    height:39.01px;
+    width:400px;
+}
+/* shopping area */
+.herosection{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:350px;
+    /* width:100%; */
+}
+/* shopping center cards */
+.customer-cards-layer1{
+    background-color:#f3f3f3;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width:100%;
+}
+.box-1{
+     background-color: white;
+     height:450px;
+     width:420px;
+     margin-top:-80px;
+}
+.cover{
+    background-size: cover;
+    height:300px;
+    width:400px;
+    padding:20px 0px 30px;
+    margin-top:15px;
+
+}
+.box{
+    margin-left:10px;
+    margin-top:10px;
+}
+.pm{
+    margin-top:20px;
+    color:#007185;
+    font-size:16px;
+    text-decoration: none;
+}
+/* video advertisemnt area */
+.advertisementarea{
+    background-color:#f3f3f3 ;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:10px #f3f3f3;
+}
+.video{
+    margin-top:25px;
+    margin-left:20px;
+}
+.photo{
+    height:210px;
+    width:290px;
+    margin-left:70px;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url("panchayat.jpg");
+    background-size: cover;
+    border:5px solid white;
+
+}
+.shoeadver{
+    height:150px;
+    width:410.66px;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    margin-left:21px;
+    background-color: white;
+}
+.bigdivforadver{
+    display:flex;
+    flex-wrap:wrap ;
+    margin-top:25px;
+}
+.anchor{
+    color:#007185;
+    text-decoration:none;
+    margin-bottom:30px;
+    margin-left:10px;
+}
+.amaphtot{
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:20px;
+    margin-bottom:40px;
+}
+.headings{
+    margin-bottom:70px;
+}
+/* Custormer card-2 */
+.box-2{
+    background-color: white;
+    height:450px;
+    width:420px;
+    margin-top:25px;
+}
+.customer-cards-layer2{
+    background-color:#f3f3f3;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* footer */
+footer{
+    width:100%;
+}
+.lastpanel-1{
+    margin-top:25px;
+    height:50px;
+    background-color:#37475a;
+    color:white;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    font-size:1rem;
+}
+.lastpanel-2{
+    height:450px;
+    width:100%;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul a {
+    display: block;
+    color:rgba(255,255,255,0.8);
+    margin:7px;
+    margin-bottom:10px;
+    font-size:medium;
+    margin-left:-1px;
+
+}
+ul{
+    margin:50px;
+}
+
+.amazonlogobottom{
+    display:flex;
+   align-items: center;
+    background-color:#222f3d;
+    border-top:0.5px solid rgba(255,255,255,0.8);
+    height:100px;
+    justify-content: center;
+    
+    
+}
+.bottomlogo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:40px;
+    width:90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.langbottom{
+    background-color: #222f3d;
+    border-color: rgba(255,255,255,0.8);
+    color:rgba(255,255,255,0.8);
+    height:25px;
+    margin-top:10px;
+    margin-left:60px;
+   
+
+}
+.country{
+    background-color: #222f3d;
+    border-color: rgba(255,255,255,0.8);
+    color:rgba(255,255,255,0.8);
+    height:25px;
+    margin-top:10px;
+}
+.indiab{
+    margin:10px;
+   
+}
+
+/* long customer cards */
+.longer{
+    margin-top:25px;
+    height:285px;
+    width:1300px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.longenough{    
+    padding:10px 20px;
+    width:1290px;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+.long-img{
+    display:flex;
+    justify-content: space-between;
+    height:195px;
+    width:125px;
+    border-radius:20px;
+    border:2px solid rgba(138,138,128);
+    margin-top:10px;
+}
+.you{
+    display:inline;
+    font-family: sans-serif;
+
+}
+.blue-offer{
+    text-decoration: none;
+    color:#007185;
+    margin-left:10px;
+    font-size:19px;
+}
+.anchor1{
+    margin-right:10px;
+}
+/* footer */
+.lastpanel-3{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    background-color: #0f1111;
+
+}
+.lastpanel-3 ul a{
+    color:rgba(255,255,255,0.7);
+
+}
+.lastpanel-3 ul{
+    color:rgba(255,255,255,0.9);
+}
+/* lastest footer */
+.panel-last{
+    background-color: #0f1111;
+    margin-top:350x;
+    height:60px;
+    color:rgba(255,255,255,0.8);
+    text-align:center;
+    font-size:13px;
+    
+}
+.po{
+    display:inline;
+    color:rgba(255,255,255,0.8);
+    
+}
+.pg3{
+    display:inline-block;
+}
